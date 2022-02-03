@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;900&display=swap" rel="stylesheet">
+    <title>Khashayarnet|1401</title>
+</head>
+
+<audio id="heartbeat" src="./norouz.mp3" preload="auto">	Your browser does not support the <code>audio</code> element.
+</audio>
+
+<script type="text/javascript"> 
+
+    function loadCssFile(filename) { 
+ 
+       var fileref=document.createElement('link'); 
+ 
+       fileref.setAttribute('rel', 'stylesheet'); 
+ 
+       fileref.setAttribute('type', 'text/css'); 
+ 
+       fileref.setAttribute('href', filename); 
+ 
+       document.getElementsByTagName("head")[0].appendChild(fileref); 
+ 
+    }  
+ 
+     loadCssFile('http://awebfont.ir/css?id=1565'); 
+ 
+ </script>
+
+<style>
+    .confetti{
+       
+        display: block;
+        margin: 0 auto;
+        user-select: none;
+    }    
+</style>
+
+<body>
+    <div id="canvas-wrap">
+    <canvas class="confetti container" id="canvas"> </canvas>
+        <div class="envelope" id="overlay" >
+            <div class="cover top"></div>
+            <div class="cover bottom right" ></div>
+            <div class="cover left"></div>
+            <div class="letter">
+                🥳نوروز 1401 مبارک
+            </div>
+            <p1 style="color: white;"> ساخته شده توسط خشایارنت</p1>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
